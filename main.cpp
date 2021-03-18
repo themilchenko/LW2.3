@@ -21,6 +21,8 @@ int main()
         std::cout << "A = " << i->count_work() << std::endl;
         std::cout << std::endl;
     }
+    
+    thermal_process.clear();
 
     return 0;
 }
